@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+.img{
+    width:272px;
+    height: 280px;
+    margin-bottom: 24px;
+}
+
+.typography{
+max-width: 380px;
+height: 100%;
+font-weight: 500;
+font-size: 1rem;
+line-height: 155%;
+max-width: 380px;
+color: #111827;
+text-align: center;
+
+
+}
+
+.btn{
+    background-color: cornflowerblue;
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+    padding:  13.5px 149.5px;
+    font-size: 25px;
+    margin-bottom: 19px;
+    margin-top: 24px;
+    background: linear-gradient(90deg,#E4CFEC,#99d6ff);
+    border:none;
+    font-weight: 600;
+    
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    margin-top:127px;
+    margin-bottom: 175px;
+    
+}
+
