@@ -26,7 +26,7 @@ const Register = () => {
         <Input  label='Quel est votre nom ?' placeholder='Nom Complet' iconName={person}/>
             <Input label='Quel est votre Email ?' placeholder='Email'iconName={email}/>
             <Input label='Quel est votre numero de telephone ?' placeholder='Numero Telephone' iconName ={phone}/>
-            <Input label='Choisissez un mot de passe' placeholder='Mot de passe '  iconName={person}/>
+            <Input label='Choisissez un mot de passe' placeholder='Mot de passe '  />
             <Button className='btn btn-lg' text="Je m'inscris"/>
         </section>
 

@@ -1,5 +1,6 @@
-import React from 'react'
+import React ,{useState}from 'react'
 import "../styles/common/_input.css"
+
 
 const Input = ({
                 iconName = '',
@@ -10,10 +11,11 @@ const Input = ({
                 name,
                 placeholder = '',
                 type = 'text',
-                value = '',
+                // value = '',
                    ...others
                }) => {
 
+    const [value,setValue] = useState('qedfqdf');
     return (
         <div className='input_container'>
 
@@ -22,7 +24,10 @@ const Input = ({
             </label>
             <br/>
             <div className='input-field'>
-                <img src={iconName} alt=""/>
+                
+                    {iconName && <img src={iconName} alt=""/>}
+                
+                
                 <input
                 
                     id={`input#${name}`}
@@ -31,6 +36,8 @@ const Input = ({
                     placeholder={placeholder}
                     value={value}
                     {...others}
+                    onChange={(e)=>setValue(e.target.value)}
+                    
                 />
             </div>  
           {/* {error && <small className="form__error">{error}</small>} */}
