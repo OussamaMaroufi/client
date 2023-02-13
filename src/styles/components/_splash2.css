@@ -1,0 +1,45 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+}
+
+.logo{
+    width: 272px;
+    height: 280px;
+    margin: auto;
+}
+
+
+.main{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24.8px;
+    text-align: start;
+}
+
+.wrapper{
+    margin: 24px;
+    /* border: 2px solid red; */
+    max-width: 380px;
+    margin-top: 11vh;
+    
+      
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+
+}
+
+.text_underline{
+   font-weight: 700;
+    font-size: 16px;
+    text-decoration: underline;
+}

@@ -1,0 +1,14 @@
+.wrapper{
+    margin: 24px;
+    /* border: 2px solid red; */
+    max-width: 380px;
+    margin-top: 11vh;
+          
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+
+}

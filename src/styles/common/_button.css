@@ -1,0 +1,30 @@
+.btn{
+    
+    background-color: cornflowerblue;
+    border-radius: 8px;
+    color: #fff;
+    font-weight:600;
+    font-size: 25px;
+    background: linear-gradient(90deg,#E4CFEC,#99d6ff);
+    border:none;
+    outline-width: 0;
+    outline-color: transparent;
+    cursor: pointer;
+}
+
+.btn--lg {
+    font-size: 1.25rem;
+    padding:  13.5px
+  }
+
+  .btn--sm {
+    font-size: 1.3rem;
+    padding: 0.5rem 1.2rem;
+  }
+  
+  .btn--md {
+    font-size: 1.35rem;
+    padding: 0.8rem 2rem;
+  }
+  
+
